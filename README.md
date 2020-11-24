@@ -23,12 +23,11 @@ In the third model, we use the Cluster Centroids Undersampling algorithm to pred
 
 ![Dashboard](https://github.com/Gerry84/Credit_Risk_Analysis/blob/main/Pictures/Undersampling.PNG)
 
-Even though this model only uses real data points in the dataset, the accuracy level significantly decreases from the oversampling methods. The accuracy level for the Cluster Centroids model dropped to 52% and a high risk F1 score of 1%. This is the worst algorithm to predict credit risk.
+Even though this model only uses real data points in the dataset, the accuracy level significantly decreases from the oversampling methods. The accuracy level for the Cluster Centroids model dropped to 51% and a high risk F1 score of 1%. This is the worst algorithm to predict credit risk.
 
 4. Smoteenn Oversampling and Undersampling
 The fourth model of our machine learning analysis is the Smoteenn algorithm that combines over and undersampling. It oversamples like the Smote model and eliminates points that are outliers, and it also undersamples as it drops points that are too close to both classes. This model tries to further define boundaries between the two classes.
 
-smoteenn_combo_over_under
 ![Dashboard](https://github.com/Gerry84/Credit_Risk_Analysis/blob/main/Pictures/Combination_Sampling.PNG)
 
 This model also doesn't significantly improve the accuracy levels. This falls in line with the Naive Random Oversampling and Smote Oversampling levels at 64% accuracy rate.
