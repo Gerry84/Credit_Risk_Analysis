@@ -7,7 +7,7 @@ The tools used in this analysis are: Python with Machine Learning Models in Jupy
 
 ## Results
 1. Naive Random Oversampling
-In an oversampling model, sample data points are randomly selected and duplicated to balance the number of points between the larger and smaller classes. In this instance, the smaller class isn't under represented, but evenly balanced with the larger class. The first model - Naive Random Oversampling - does not provide very strong credit risk predictions. Overall, it only has a 63% accuracy score and 2% F1 score for high risk credit scores. It has low recall (sensitivity) and precision values as well, which means it is not accurate or reliable at predicting a high credit risk.
+In an oversampling model, sample data points are randomly selected and duplicated to balance the number of points between the larger and smaller classes. In this instance, the smaller class isn't under represented, but evenly balanced with the larger class. The first model - Naive Random Oversampling - does not provide very strong credit risk predictions. Overall, it only has a 66% accuracy score and 2% F1 score for high risk credit scores. It has low recall (sensitivity) and precision values as well, which means it is not accurate or reliable at predicting a high credit risk.
 
 ![Dashboard](https://github.com/Gerry84/Credit_Risk_Analysis/blob/main/Pictures/Naive_Random_Oversampling.PNG)
 
