@@ -37,7 +37,7 @@ The following two models - Easy Ensemble Classifier and Balanced Random Forest -
 
 ![Dashboard](https://github.com/Gerry84/Credit_Risk_Analysis/blob/main/Pictures/balanced_random_forest.PNG)
 
-This model does increase accuracy over the other four. The level jumped to an 82% accuracy level. While this is much better than the previous models, an 82% is still a mediocre level for a machine learning model. Most would argue an 95% or higher would be the standard level for these models.
+This model does increase accuracy over the other four. The level jumped to an 79% accuracy level. While this is much better than the previous models, an 79% is still a mediocre level for a machine learning model. Most would argue an 95% or higher would be the standard level for these models.
 
 6. Easy Ensemble Classifier
 
